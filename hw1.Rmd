@@ -1,0 +1,81 @@
+---
+title: 'Homework #1'
+author: 'Nikole Slinger'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This homework is more or less a tutorial that helps you set up the coding environment used in this course, and familiarizes you with the format of the assignment submission. 
+As a pre-requisite of this homework, first install R, and then the RStudio (the free version of Rstudio Desktop). 
+
+Please respond to all questions. If the question asks you to do something on your laptop and you have finished that, just say "Done". 
+
+1. Create a folder named `ds202_hw1`, and **either** create an RMarkDown file `hw1.Rmd` under this folder **or** move the provided template into this folder. `hw1.Rmd` will include your solutions. The file and folder names are *case-sensitive*, which means `hw1.Rmd` and `HW1.rmd` are different. *It is crucial to follow the exact folder structure and file names* in this course, so that your homework can be reproduced. The correct folder structure is
+
+    ```
+    ds202_hw1
+    |-- hw1.Rmd
+    |-- hw1.html (generated after knitting)
+    ```
+    
+    Answer: Done
+
+2. Write your name in the YAML of your homework `Rmd` file.
+
+    Answer: Done
+
+3. Write a paragraph to introduce yourself. Set your name in bold font and your major in italic. 
+
+    Answer: Hello! My name is **Nikole Slinger** and I am a sophomore majoring in *Data Science*. I grew up in Hiawatha, Iowa which is right next to the city of Cedar Rapids and is only about two hours away from Iowa State University. Originally I was looking into majoring in Animal Science, Mechanical Engineering, or Software Engineering, but I really liked the new idea of Data Science and more of a math/statistics side of STEM. I am looking forward to classes this semester as Data Science is still a relatively new topic even for me and am excited to learn more about the specific career path.
+  
+4. Write a paragraph describing a job that you think is related to data science. Include a hyperlink and an image. Make sure your answer is in a nice format to read. 
+
+    Answer: I think a career as a [Data Scientist](https://www.dataquest.io/blog/career-guide-data-science-options/) will be one that requires a person to be able to quickly adapt to situations, successfully work with a team, and effectively communicate their findings in a way that everyone can understand. They will have to use their programming skills to create algorithms that will help them explore and interpret the large amount of data that they work with and use there statistics skills to analyze their findings. Data Scientists also must have solid communication skills as it's important to create visuals and explain their results to their team and/or boss. In general, they will have to combine all of the necessary qualities and skills to become an effective Data Scientist.
+    
+    ![A data scientist (pictured above) along with useful skills.](https://www.y-axis.com/overseas-jobs/wp-content/uploads/2020/01/Data-Scientist.jpg){width=50%}
+  
+5. What data topic will you be most interested in? (Optional) Provide a source of such dataset if you have.
+
+    Answer: Although in general I'm looking forward to learning R and RMarkdown, the topic I'm specifically most interested in as of now is learning the process of creating effective visuals and graphics. I think it may be a challenge because we first have to filter, interpret, and analyze a large amount of data. The large amount of data gives us an opportunity to use many different types of visuals, but it is up to data scientists to decide which graph(s) will be most helpful to communicate what they find.
+  
+6. To check that your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. Include this command into a R code trunk in your solution `Rmd` file to have it automatically printed in the knitted html file. 
+
+    Answer: 
+    ```{r}
+    version
+    ``` 
+  
+7. Install git. 
+    - If you are on Windows: 
+        a. Install [Git for Windows](https://gitforwindows.org/). In the coming weeks we will use the Git Bash (but not the Git GUI). 
+        b. After installation, set up Rstudio to use Git bash as the shell for the Terminal: Open RStudio, click Tools--Global Options--Terminal; under **Shells**, select Git Bash; click OK. 
+        c. In the main menu of RStudio: click Tools--Terminal--New Terminal. If you have a `$` before your prompt, then you should be good to go.
+    - If you are on Linux or macOS, Git has probably been installed by default, so you do not need to install anything. Just click the Terminal tab (above the R Console).
+
+    Answer: Done
+  
+8. What is the version of your Git? To find out, go to the Terminal tab in RStudio (right to the Console tab), and type in the following command. If it works, this shows that the setup of your terminal and Git is correct. 
+<!-- Then explore the bash command line and Git. -->
+
+    ```
+    git --version
+    ```
+
+    Answer: I currently have "git version 2.21.1 (Apple Git-122.3)".
+  
+9. Configure your git username and user email by modifying and entering the following commands into the terminal
+
+    ```
+    git config --global user.name "your first and last name"
+    git config --global user.email "yourEmail"
+    ```
+
+    Answer: Done
+  
+
+10. Register a [GitHub](https://www.github.com) account. What is your username?
+
+    Answer: My GitHub username is "nikoles10".
