@@ -1,0 +1,20 @@
+---
+title: "partner"
+author: 'My name: Zack Larson GitHub username: Zclarson'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Partner name(Github repo owner): Nikole Slinger Github username: nikoles10
+
+#The last commit the owner made was her uploading her hw1 files to the git repository. The commit ID was 0d3a536f4289979b5cb59bca1c53b484f0a521b2
+
+#I am able to knit her hw1.Rmd file without any errors
+
+#One tip for making this easier is to install Git Bash where you can open it and run git commands from the folder you want to use
+
+
+
